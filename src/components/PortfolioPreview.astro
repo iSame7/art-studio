@@ -16,7 +16,7 @@ const { data, slug } = Astro.props.project;
 <style>
 	.card {
 		display: grid;
-		grid-template: auto 1fr / auto 1fr;
+		grid-template: auto 2fr / auto 2fr;
 		height: 11rem;
 		background: var(--gradient-subtle);
 		border: 1px solid var(--gray-800);
@@ -26,7 +26,7 @@ const { data, slug } = Astro.props.project;
 		text-decoration: none;
 		font-family: var(--font-brand);
 		font-size: var(--text-lg);
-		font-weight: 500;
+		font-weight: 300;
 		transition: box-shadow var(--theme-transition);
 	}
 
@@ -53,8 +53,9 @@ const { data, slug } = Astro.props.project;
 
 	@media (min-width: 50em) {
 		.card {
-			height: 22rem;
-			border-radius: 1.5rem;
+			height: 50rem;
+			/* width: 50rem; */
+			border-radius: 0rem;
 		}
 
 		.title {

@@ -48,8 +48,8 @@ const { title, description } = Astro.props;
 			}
 
 			:root.theme-dark {
-				--bg-image-main: url('/assets/backgrounds/bg-main-dark-800w.jpg');
-				--bg-image-main-curves: url('/assets/backgrounds/bg-main-dark.svg');
+				--bg-image-main: url('');
+				--bg-image-main-curves: url('');
 				--bg-svg-blend-mode: darken;
 				--bg-blend-mode: lighten;
 			}
@@ -62,9 +62,9 @@ const { title, description } = Astro.props;
 				--bg-image-footer: url('');
 			}
 			:root.loaded.theme-dark {
-				--bg-image-subtle-1: url('/assets/backgrounds/bg-subtle-1-dark-800w.jpg');
-				--bg-image-subtle-2: url('/assets/backgrounds/bg-subtle-2-dark-800w.jpg');
-				--bg-image-footer: url('/assets/backgrounds/bg-footer-dark-800w.jpg');
+				--bg-image-subtle-1: url('');
+				--bg-image-subtle-2: url('');
+				--bg-image-footer: url('');
 			}
 
 			@media (min-width: 50em) {
@@ -73,18 +73,18 @@ const { title, description } = Astro.props;
 					--bg-image-main: url('');
 				}
 				:root.theme-dark {
-					--bg-image-main: url('/assets/backgrounds/bg-main-dark-1440w.jpg');
+					--bg-image-main: url('');
 				}
 
 				:root.loaded {
-					--bg-image-subtle-1: url('/assets/backgrounds/bg-subtle-1-light-1440w.jpg');
-					--bg-image-subtle-2: url('/assets/backgrounds/bg-subtle-2-light-1440w.jpg');
-					--bg-image-footer: url('/assets/backgrounds/bg-footer-light-1440w.jpg');
+					--bg-image-subtle-1: url('');
+					--bg-image-subtle-2: url('');
+					--bg-image-footer: url('');
 				}
 				:root.loaded.theme-dark {
-					--bg-image-subtle-1: url('/assets/backgrounds/bg-subtle-1-dark-1440w.jpg');
-					--bg-image-subtle-2: url('/assets/backgrounds/bg-subtle-2-dark-1440w.jpg');
-					--bg-image-footer: url('/assets/backgrounds/bg-footer-dark-1440w.jpg');
+					--bg-image-subtle-1: url('');
+					--bg-image-subtle-2: url('');
+					--bg-image-footer: url('');
 				}
 			}
 
@@ -93,7 +93,7 @@ const { title, description } = Astro.props;
 				isolation: isolate;
 				background:
 					/*noise*/
-					url('/assets/backgrounds/noise.png') top center/220px repeat,
+					url('') top center/220px repeat,
 					/*footer*/ var(--bg-image-footer) bottom center/var(--bg-gradient-size) no-repeat,
 					/*header1*/ var(--bg-image-main-curves) top center/var(--bg-gradient-size) no-repeat,
 					/*header2*/ var(--bg-image-main) top center/var(--bg-gradient-size) no-repeat,
