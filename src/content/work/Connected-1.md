@@ -1,7 +1,7 @@
 ---
-title: Connected
-publishDate: 2024-09-18 00:00:00
-img: /assets/stock-5.jpg
+title: Connected#1
+publishDate: 2024-08-02 00:00:00
+img: /assets/stock-6.jpg
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
   We developed brand positioning and design assets for the launch
