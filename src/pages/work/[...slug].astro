@@ -43,7 +43,7 @@ const { Content } = await entry.render();
 					<Hero title={entry.data.title} align="start">
 						<div class="details">
 							<div class="tags">
-								{entry.data.tags.map((t) => <Pill>{t}</Pill>)}
+								<!-- {entry.data.tags.map((t) => <Pill>{t}</Pill>)} -->
 							</div>
 							<p class="description">{entry.data.description}</p>
 						</div>
@@ -51,9 +51,10 @@ const { Content } = await entry.render();
 				</div>
 			</header>
 			<main class="wrapper">
-				<div class="stack gap-10 content">
-					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
-					<!-- <div class="gallery">
+
+				<!-- <div class="stack gap-20">
+					<main class="wrapper stack gap-8">
+			
 						<Grid variant="offset">
 							{
 								projects.map((project) => (
@@ -63,12 +64,21 @@ const { Content } = await entry.render();
 								))
 							}
 						</Grid>
-					</div> -->
+					</main>
+				</div> -->
+				<div class="stack gap-10 content">
+					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
+					{entry.data.img_2 && <img src={entry.data.img_2} alt={entry.data.img_alt || ''} />}
+					{entry.data.img_3 && <img src={entry.data.img_3} alt={entry.data.img_alt || ''} />}
+					{entry.data.img_4 && <img src={entry.data.img_4} alt={entry.data.img_alt || ''} />}
+					{entry.data.img_5 && <img src={entry.data.img_5} alt={entry.data.img_alt || ''} />}
 
 					<div class="content">
 						<Content />
 					</div>
 				</div>
+
+
 			</main>
 		</div>
 		<ContactCTA />

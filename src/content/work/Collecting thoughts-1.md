@@ -2,6 +2,10 @@
 title: Collecting thoughts#1
 publishDate: 2024-09-01 00:00:00
 img: /assets/stock-4.jpg
+img_2: /assets/collected-thoughts-3/1.jpg
+img_3: /assets/collected-thoughts-3/2.jpg
+img_4: /assets/collected-thoughts-3/3.jpg
+img_5: /assets/collected-thoughts-3/4.jpg
 img_alt: Soft pink and baby blue water ripples together in a subtle texture.
 description: |
   We developed brand positioning and design assets for the launch
