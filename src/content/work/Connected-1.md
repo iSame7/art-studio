@@ -8,12 +8,12 @@ img_4: /assets/connected-1/3.jpg
 img_5: /assets/connected-1/4.jpg
 img_alt: ""
 description: |
-  Connected #1 | 50 x 70 cm | Acrylic on canvas.
+  Connected #1 | 50 x 70 cm | Mixed media on canvas.
 ---
 
 "Connected #1" (2024) is an original painting by Sameh Mabrouk. It is part of his connected series.
 
-Medium: Acrylic on canvas.\
+Medium: Mixed media on canvas.\
 Size: 50*70 cm.
 
 <!-- Original Artwork
