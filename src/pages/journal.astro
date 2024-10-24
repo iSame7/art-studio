@@ -1,0 +1,35 @@
+---
+import Layout from "../components/layout.astro";
+import PostListing from "../components/post/post-list.astro";
+import { posts } from "../helpers";
+import { Debug } from 'astro:components';
+
+import { getCollection } from 'astro:content';
+
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import PortfolioPreview from '../components/PortfolioPreview.astro';
+import Hero from '../components/Hero.astro';
+import Grid from '../components/Grid.astro';
+
+---
+
+<BaseLayout
+	title="Journal"
+	description="Learn about Sameh Mabrouk's most recent projects"
+>
+	<div class="stack gap-20">
+		<main class="wrapper stack gap-8">
+			<Hero
+				title="Journal"
+				tagline=""
+				align="start"
+			/>
+
+            <Layout><PostListing posts={posts} /></Layout>
+
+		</main>
+		<ContactCTA />
+	</div>
+</BaseLayout>

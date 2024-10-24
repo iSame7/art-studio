@@ -8,7 +8,7 @@ img_4: /assets/connected-2/3.jpg
 img_5: /assets/connected-2/4.jpg
 img_alt: ""
 description: |
-  Connected #2 | 50 x 70 cm | Acrylic on canvas.
+  Connected #2 | 50 x 70 cm | Mixed media on canvas.
 ---
 
 "Connected #2" (2024) is an original painting by Sameh Mabrouk. It is part of his connected series.

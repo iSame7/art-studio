@@ -16,4 +16,26 @@ export const collections = {
 			img_alt: z.string().optional(),
 		}),
 	}),
+
+
+	blog: defineCollection({
+		schema: z.object({
+			title: z.string(),
+			description: z.string(),
+			date: z
+			  .string()
+			  .or(z.date())
+			  .transform((val) =>
+				new Date(val).toLocaleDateString("en-US", {
+				  year: "numeric",
+				  month: "long",
+				  day: "numeric",
+				}),
+			  ),
+			tags: z.array(z.string()).optional(),
+			cover: z.string().optional(),
+		  }),
+	}),
+
+
 };
