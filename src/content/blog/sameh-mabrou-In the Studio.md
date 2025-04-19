@@ -72,9 +72,13 @@ Looking ahead, I am focused on self-study and refining my artistic practice and 
 <br />
 <p> <strong>Personal recommendations---</strong> <br />
 Series to watch: Downey's Dream Cars
+
 Artists to discover: Frederic Forest
+
 Musician to discover: Marion Brown
+
 Sport to play: Chess
+
 Food to eat: Stuffed Grape Leaves
 
 </p>
